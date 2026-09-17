@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import { GraduationCap, Phone, MapPin, Clock, ArrowUp, ChevronRight } from 'lucide-react';
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from './icons/SocialIcons';
 

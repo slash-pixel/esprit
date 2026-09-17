@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Cross, ArrowRight } from 'lucide-react';
 import { statsData } from '../data/content';

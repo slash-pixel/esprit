@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --forest-900: #0F2818;
+    --forest-800: #163321;
+    --forest-700: #1B3A2B;
+    --forest-600: #264E3B;
+    --forest-100: #E8F0EC;
+    
+    --bg-light: #FAF8F3;
+    --accent-gold: #C5A059;
+    --accent-terracotta: #C85A32;
+  }
+
+  body {
+    background-color: var(--bg-light);
+    color: #1a1a1a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', 'Lora', Georgia, serif;
+  }
+}
+
+/* Motif géométrique discret en filigrane */
+.bg-pattern {
+  background-image: radial-gradient(#C5A059 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
